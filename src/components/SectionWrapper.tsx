@@ -7,7 +7,7 @@ import Button from './Button';
 type SectionWrapperProps = {
   title:string,
    description:string,
-    showBtn:boolean, 
+    showBtn?:boolean, 
     mockupImg?:string|undefined, 
     banner?:string, 
     reverse?:boolean
