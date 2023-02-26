@@ -5,13 +5,15 @@ import assets from '../assets';
 import Button from './Button';
 
 type SectionWrapperProps = {
-  title:string,
-   description:string,
+   title:string,
+    description:string,
     showBtn?:boolean, 
     mockupImg?:string|undefined, 
     banner?:string, 
     reverse?:boolean
 }
+
+
 
 const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, reverse }:SectionWrapperProps) => {
   return (
