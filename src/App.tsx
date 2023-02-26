@@ -2,8 +2,12 @@
 import { Download, Features, SectionWrapper } from './components';
 import assets from './assets';
 import styles from './styles/Global';
+import { useEffect } from 'react';
 
 const App = () => {
+  useEffect(() => {
+    document.title = 'Nifty NFTs demo';
+  }, []);
   return (
     <>
       <SectionWrapper 
