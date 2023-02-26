@@ -3,19 +3,20 @@ import homeCards from "./home_cards.png";
 import feature from "./feature.png";
 import expo from "./expo.png";
 import expo02 from "./expo02.png";
-import javascript from "./javascript.png";
+import typescript from "./typescript.png";
 import react from "./react.png";
 import scene from "./scene.png";
 import mockup from "./mockup.png";
 
-export default {
+const assets = {
   homeHero,
   homeCards,
   feature,
   expo,
   expo02,
-  javascript,
+  typescript,
   react,
   scene,
   mockup,
 };
+export default assets;
